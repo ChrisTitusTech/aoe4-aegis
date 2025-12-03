@@ -1,0 +1,13 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Aegis - AoE4 Building Shortcuts Practice"
+theme = ""
+
+[build]
+  writeStats = false
+
+[outputs]
+  home = ["HTML"]
+
+[params]
+  description = "A tiny game to practice Age of Empires IV building shortcuts"

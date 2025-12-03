@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developers.cloudflare.com/pages/platform/build-configuration",
+  "build": {
+    "command": "./build-hugo.sh",
+    "output": "public"
+  },
+  "preview": {
+    "command": "./build-hugo.sh",
+    "output": "public"
+  }
+}

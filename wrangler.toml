@@ -1,0 +1,21 @@
+# Cloudflare Pages Build Configuration
+
+# Build command will use our custom build script
+# Build output directory: public
+
+# Environment variables needed:
+# NODE_VERSION=18
+# HUGO_VERSION=0.121.0
+
+[build]
+  command = "./build-hugo.sh"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "18"
+  HUGO_VERSION = "0.121.0"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

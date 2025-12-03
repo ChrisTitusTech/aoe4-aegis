@@ -1,5 +1,13 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Hugo generated files
+/public/
+/resources/
+/.hugo_build.lock
+
+# Hugo + React integration
+/static/react-app/
+
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +29,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# IDE
+.idea
+.vscode

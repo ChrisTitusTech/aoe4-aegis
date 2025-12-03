@@ -18,6 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:hugo": "./build-hugo.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
